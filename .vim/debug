@@ -1,0 +1,382 @@
+
+
+could not source ".vimrc"
+                         E484: Can't open file .vimrc
+
+/root/.vim
+
+chdir(/etc)
+fchdir() to previous dir
+sourcing "/etc/vimrc"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 6: sourcing "/usr/share/vim/vim74/syntax/syntax.vim"
+Searching for "syntax/synload.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/syntax/synload.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/synload.vim"
+Searching for "/usr/share/vim/vim74/syntax/synload.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 19: sourcing "/usr/share/vim/vim74/syntax/synload.vim"
+Searching for "syntax/syncolor.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vim74/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 21: sourcing "/usr/share/vim/vim74/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim74/syntax/syncolor.vim
+continuing in /usr/share/vim/vim74/syntax/synload.vim
+Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/root/.vim/after/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim74/syntax/synload.vim
+continuing in /usr/share/vim/vim74/syntax/syntax.vim
+Searching for "filetype.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim74/filetype.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 25: sourcing "/usr/share/vim/vim74/filetype.vim"
+Searching for "ftdetect/*.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/ftdetect/*.vim"
+Searching for "/usr/share/vim/vim74/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/root/.vim/after/ftdetect/*.vim"
+not found in 'runtimepath': "ftdetect/*.vim"
+finished sourcing /usr/share/vim/vim74/filetype.vim
+continuing in /usr/share/vim/vim74/syntax/syntax.vim
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/root/.vim/after/filetype.vim"
+Executing FileType Auto commands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Auto commands for "*"
+autocommand call s:SynSet()
+
+Executing BufRead Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Searching for "scripts.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/scripts.vim"
+Searching for "/usr/share/vim/vimfiles/scripts.vim"
+Searching for "/usr/share/vim/vim74/scripts.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 0: sourcing "/usr/share/vim/vim74/scripts.vim"
+finished sourcing /usr/share/vim/vim74/scripts.vim
+continuing in BufRead Auto commands for "*"
+Searching for "/usr/share/vim/vimfiles/after/scripts.vim"
+Searching for "/root/.vim/after/scripts.vim"
+Executing BufRead Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf conf | endif
+
+finished sourcing /usr/share/vim/vim74/syntax/syntax.vim
+continuing in /etc/vimrc
+Searching for "filetype.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim74/filetype.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 7: sourcing "/usr/share/vim/vim74/filetype.vim"
+finished sourcing /usr/share/vim/vim74/filetype.vim
+continuing in /etc/vimrc
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/root/.vim/after/filetype.vim"
+Searching for "ftplugin.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/ftplugin.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin.vim"
+Searching for "/usr/share/vim/vim74/ftplugin.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 7: sourcing "/usr/share/vim/vim74/ftplugin.vim"
+finished sourcing /usr/share/vim/vim74/ftplugin.vim
+continuing in /etc/vimrc
+Searching for "/usr/share/vim/vimfiles/after/ftplugin.vim"
+Searching for "/root/.vim/after/ftplugin.vim"
+Searching for "indent.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/indent.vim"
+Searching for "/usr/share/vim/vimfiles/indent.vim"
+Searching for "/usr/share/vim/vim74/indent.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 7: sourcing "/usr/share/vim/vim74/indent.vim"
+finished sourcing /usr/share/vim/vim74/indent.vim
+continuing in /etc/vimrc
+Searching for "/usr/share/vim/vimfiles/after/indent.vim"
+Searching for "/root/.vim/after/indent.vim"
+Searching for "autoload/pathogen.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/autoload/pathogen.vim"
+chdir(/root/.vim/autoload)
+fchdir() to previous dir
+line 9: sourcing "/root/.vim/autoload/pathogen.vim"
+finished sourcing /root/.vim/autoload/pathogen.vim
+continuing in /etc/vimrc
+Searching for "autoload/pathogen.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/autoload/pathogen.vim"
+chdir(/root/.vim/autoload)
+fchdir() to previous dir
+line 9: sourcing "/root/.vim/autoload/pathogen.vim"
+finished sourcing /root/.vim/autoload/pathogen.vim
+continuing in /etc/vimrc
+                        Error detected while processing /etc/vimrc:
+line    9:
+E117: Unknown function: pathogen#infect
+E15: Invalid expression: pathogen#infect()
+finished sourcing /etc/vimrc
+
+E492: Not an editor command: Q
+
+
+chdir(/etc)
+fchdir() to previous dir
+sourcing "/etc/vimrc"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 6: sourcing "/usr/share/vim/vim74/syntax/syntax.vim"
+Searching for "syntax/synload.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/syntax/synload.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/synload.vim"
+Searching for "/usr/share/vim/vim74/syntax/synload.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 19: sourcing "/usr/share/vim/vim74/syntax/synload.vim"
+Searching for "syntax/syncolor.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vim74/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 21: sourcing "/usr/share/vim/vim74/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim74/syntax/syncolor.vim
+continuing in /usr/share/vim/vim74/syntax/synload.vim
+Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/root/.vim/after/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim74/syntax/synload.vim
+continuing in /usr/share/vim/vim74/syntax/syntax.vim
+Searching for "filetype.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim74/filetype.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 25: sourcing "/usr/share/vim/vim74/filetype.vim"
+Searching for "ftdetect/*.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/ftdetect/*.vim"
+Searching for "/usr/share/vim/vim74/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/root/.vim/after/ftdetect/*.vim"
+not found in 'runtimepath': "ftdetect/*.vim"
+finished sourcing /usr/share/vim/vim74/filetype.vim
+continuing in /usr/share/vim/vim74/syntax/syntax.vim
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/root/.vim/after/filetype.vim"
+Executing FileType Auto commands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Auto commands for "*"
+autocommand call s:SynSet()
+
+Executing BufRead Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Searching for "scripts.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/scripts.vim"
+Searching for "/usr/share/vim/vimfiles/scripts.vim"
+Searching for "/usr/share/vim/vim74/scripts.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 0: sourcing "/usr/share/vim/vim74/scripts.vim"
+finished sourcing /usr/share/vim/vim74/scripts.vim
+continuing in BufRead Auto commands for "*"
+Searching for "/usr/share/vim/vimfiles/after/scripts.vim"
+Searching for "/root/.vim/after/scripts.vim"
+Executing BufRead Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf conf | endif
+
+finished sourcing /usr/share/vim/vim74/syntax/syntax.vim
+continuing in /etc/vimrc
+Searching for "filetype.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim74/filetype.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 7: sourcing "/usr/share/vim/vim74/filetype.vim"
+finished sourcing /usr/share/vim/vim74/filetype.vim
+continuing in /etc/vimrc
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/root/.vim/after/filetype.vim"
+Searching for "ftplugin.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/ftplugin.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin.vim"
+Searching for "/usr/share/vim/vim74/ftplugin.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 7: sourcing "/usr/share/vim/vim74/ftplugin.vim"
+finished sourcing /usr/share/vim/vim74/ftplugin.vim
+continuing in /etc/vimrc
+Searching for "/usr/share/vim/vimfiles/after/ftplugin.vim"
+Searching for "/root/.vim/after/ftplugin.vim"
+Searching for "indent.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/indent.vim"
+Searching for "/usr/share/vim/vimfiles/indent.vim"
+Searching for "/usr/share/vim/vim74/indent.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 7: sourcing "/usr/share/vim/vim74/indent.vim"
+finished sourcing /usr/share/vim/vim74/indent.vim
+continuing in /etc/vimrc
+Searching for "/usr/share/vim/vimfiles/after/indent.vim"
+Searching for "/root/.vim/after/indent.vim"
+Searching for "autoload/pathogen.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/autoload/pathogen.vim"
+chdir(/root/.vim/autoload)
+fchdir() to previous dir
+line 9: sourcing "/root/.vim/autoload/pathogen.vim"
+finished sourcing /root/.vim/autoload/pathogen.vim
+continuing in /etc/vimrc
+Searching for "autoload/pathogen.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/autoload/pathogen.vim"
+chdir(/root/.vim/autoload)
+fchdir() to previous dir
+line 9: sourcing "/root/.vim/autoload/pathogen.vim"
+finished sourcing /root/.vim/autoload/pathogen.vim
+continuing in /etc/vimrc
+                        Error detected while processing /etc/vimrc:
+line    9:
+E117: Unknown function: pathogen#infect
+E15: Invalid expression: pathogen#infect()
+finished sourcing /etc/vimrc
+
+  compatible
+
+
+nocompatible
+
+chdir(/etc)
+fchdir() to previous dir
+sourcing "/etc/vimrc"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 6: sourcing "/usr/share/vim/vim74/syntax/syntax.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 15: sourcing "/usr/share/vim/vim74/syntax/nosyntax.vim"
+Executing BufEnter Auto commands for "*"
+autocommand syn clear
+
+autocommand if exists("b:current_syntax") | unlet b:current_syntax | endif
+
+finished sourcing /usr/share/vim/vim74/syntax/nosyntax.vim
+continuing in /usr/share/vim/vim74/syntax/syntax.vim
+Searching for "syntax/synload.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/syntax/synload.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/synload.vim"
+Searching for "/usr/share/vim/vim74/syntax/synload.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 19: sourcing "/usr/share/vim/vim74/syntax/synload.vim"
+Searching for "syntax/syncolor.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vim74/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 21: sourcing "/usr/share/vim/vim74/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim74/syntax/syncolor.vim
+continuing in /usr/share/vim/vim74/syntax/synload.vim
+Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/root/.vim/after/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim74/syntax/synload.vim
+continuing in /usr/share/vim/vim74/syntax/syntax.vim
+Executing FileType Auto commands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Auto commands for "*"
+autocommand call s:SynSet()
+
+finished sourcing /usr/share/vim/vim74/syntax/syntax.vim
+continuing in /etc/vimrc
+Searching for "filetype.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim74/filetype.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 7: sourcing "/usr/share/vim/vim74/filetype.vim"
+finished sourcing /usr/share/vim/vim74/filetype.vim
+continuing in /etc/vimrc
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/root/.vim/after/filetype.vim"
+Searching for "ftplugin.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/ftplugin.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin.vim"
+Searching for "/usr/share/vim/vim74/ftplugin.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 7: sourcing "/usr/share/vim/vim74/ftplugin.vim"
+finished sourcing /usr/share/vim/vim74/ftplugin.vim
+continuing in /etc/vimrc
+Searching for "/usr/share/vim/vimfiles/after/ftplugin.vim"
+Searching for "/root/.vim/after/ftplugin.vim"
+Searching for "indent.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/indent.vim"
+Searching for "/usr/share/vim/vimfiles/indent.vim"
+Searching for "/usr/share/vim/vim74/indent.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 7: sourcing "/usr/share/vim/vim74/indent.vim"
+finished sourcing /usr/share/vim/vim74/indent.vim
+continuing in /etc/vimrc
+Searching for "/usr/share/vim/vimfiles/after/indent.vim"
+Searching for "/root/.vim/after/indent.vim"
+Searching for "autoload/pathogen.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/autoload/pathogen.vim"
+chdir(/root/.vim/autoload)
+fchdir() to previous dir
+line 9: sourcing "/root/.vim/autoload/pathogen.vim"
+finished sourcing /root/.vim/autoload/pathogen.vim
+continuing in /etc/vimrc
+Searching for "ftoff.vim" in "/root/.vim,/root/.vim/bundle/nerdtree,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/ftoff.vim"
+Searching for "/root/.vim/bundle/nerdtree/ftoff.vim"
+Searching for "/usr/share/vim/vimfiles/ftoff.vim"
+Searching for "/usr/share/vim/vim74/ftoff.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 2: sourcing "/usr/share/vim/vim74/ftoff.vim"
+finished sourcing /usr/share/vim/vim74/ftoff.vim
+continuing in function pathogen#infect[14]..pathogen#cycle_filetype
+Searching for "/usr/share/vim/vimfiles/after/ftoff.vim"
+Searching for "/root/.vim/after/ftoff.vim"
+Searching for "filetype.vim" in "/root/.vim,/root/.vim/bundle/nerdtree,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/filetype.vim"
+Searching for "/root/.vim/bundle/nerdtree/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim74/filetype.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 3: sourcing "/usr/share/vim/vim74/filetype.vim"
+Searching for "ftdetect/*.vim" in "/root/.vim,/root/.vim/bundle/nerdtree,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/ftdetect/*.vim"
+Searching for "/root/.vim/bundle/nerdtree/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/ftdetect/*.vim"
+Searching for "/usr/share/vim/vim74/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/root/.vim/after/ftdetect/*.vim"
+not found in 'runtimepath': "ftdetect/*.vim"
+finished sourcing /usr/share/vim/vim74/filetype.vim
+continuing in function pathogen#infect[14]..pathogen#cycle_filetype
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/root/.vim/after/filetype.vim"
+finished sourcing /etc/vimrc
+
+E492: Not an editor command: Q
+
+E492: Not an editor command: Q
+
+Writing viminfo file "/root/.viminfo"
