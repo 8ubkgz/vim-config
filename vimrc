@@ -1,7 +1,11 @@
 set nu
-set hlsearch
+" set hlsearch
 set incsearch
 set cindent " auto indentation
+" set laststatus=2 " enable airline status bar
+
+:hi Search ctermbg=Grey " change search highlight color
+
 nmap ; :
 
 " vim regex -> perl
@@ -42,13 +46,23 @@ call vundle#begin()
 	Plugin 'bling/vim-airline'
 	Plugin 'scrooloose/syntastic'
 	Plugin 'kien/ctrlp.vim'
+	Plugin 'majutsushi/tagbar'
+	Plugin 'mhinz/vim-signify'
+	Plugin 'mhinz/vim-startify'
+	Plugin 'airblade/vim-gitgutter'
 "	Plugin 'othree/eregex.vim'
 call vundle#end()
 
 " togglables for plugins
-nnoremap <F3> :NERDTreeToggle<CR>
-nnoremap <F4> :TlistToggle<CR>
-nnoremap <F5> :GundoToggle<CR>
+nnoremap <F1> :TagbarToggle<CR>
+nnoremap <F2> :NERDTreeToggle<CR>
+nnoremap <F4> :CCTreeTraceReverse <C-R>=<SNR>11_CCTreeWindowGetHiKeyword()<CR><CR>
+nnoremap <F5> :CCTreeTraceForward <C-R>=<SNR>11_CCTreeWindowGetHiKeyword()<CR><CR>
+" nnoremap <F6> :s:FindOpenWindow('CCTree-View') == 1?CCTreeWindowToggle<CR>
+nnoremap <F6> :CCTreeWindowToggle<CR>
+nnoremap <F7> :GundoToggle<CR>
+nnoremap <F8> :TlistToggle<CR>
+map <F11> :let &background = ( &background == "dark"? "light" : "dark" )<CR>
 
 " backup settings
 set undodir=~/.vim/tmp/undo//
@@ -64,3 +78,10 @@ set undofile
 set history=100
 set undolevels=100
 
+" CCTree auto load
+function! LoadCCTree()
+    if filereadable('cscope.out')
+	        CCTreeLoadDB cscope.out
+    endif
+endfunc
+autocmd VimEnter * call LoadCCTree()
